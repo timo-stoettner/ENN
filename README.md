@@ -36,7 +36,7 @@ Since the classifier is very similar to sklearn classifiers, it can also be used
 ```python
 from sklearn.grid_search import GridSearchCV
 from scipy.spatial.distance import euclidean, mahalanobis
-clf = GridSearchCV(ENN(), {'k' : [3,5,7,8], "distance_function": [euclidean, hamming]}) 
+clf = GridSearchCV(ENN(), {'k' : [3,5,7,8], "distance_function": [euclidean, mahalanobis]}) 
 clf.fit(X_train, y_train)
 pred_y = clf.predict(X_test)
 ```

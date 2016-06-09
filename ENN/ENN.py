@@ -4,7 +4,7 @@ from scipy.spatial.distance import euclidean
 from sklearn.base import ClassifierMixin
 from sklearn.neighbors.base import NeighborsBase
 
-class ENN(ClassifierMixin, NeighborsBase):
+class enn(ClassifierMixin, NeighborsBase):
     
     def __init__(self, k=3, distance_function = euclidean):
         self.k = k

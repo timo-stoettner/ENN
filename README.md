@@ -1,12 +1,18 @@
 # ENN
 Python Implementation of the Extended Nearest Neighbor Algorithm (ENN) proposed by Tang and He (2015), which constitutes an improvement to the widespread KNN algorithm. It has been shown that ENN can lead to significantly more accurate results than KNN and other popular algorithms for different kinds of datasets. For more information, see the paper at  http://www.ele.uri.edu/faculty/he/PDFfiles/ENN.pdf
 
+# Installation 
+
+```
+pip install enn
+```
+
 # Usage
 
 To use the classifier, simply import the ENN class by typing
 
 ```python
-from ENN import ENN
+from enn import ENN
 ```
 
 The classifier can be used just like classifiers implemented in the scikit-learn package and therefore contains a fit and a predict method, among others. To obtain the predictions of the classifier, simply type

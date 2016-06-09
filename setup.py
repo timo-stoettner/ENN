@@ -2,6 +2,7 @@ from distutils.core import setup
 setup(
   name = 'enn',
   packages = ['enn'],
+  package_dir = {'enn' : ''},
   version = '0.14',
   description = 'Python Implementation of the Extended Nearest Neighbor Algorithm (ENN)',
   author = 'Timo Stoettner',

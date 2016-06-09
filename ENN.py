@@ -1,6 +1,5 @@
 import numpy as np
 from sklearn.neighbors import KDTree
-#import scipy.io
 from scipy.spatial.distance import euclidean
 from sklearn.base import ClassifierMixin
 from sklearn.neighbors.base import NeighborsBase

@@ -17,7 +17,7 @@ clf.fit(X_train, y_train)
 pred_y = clf.predict(X_test)
 ```
 
-The constructor takes two parameters:
+The constructor takes two arguments:
 
 - `k`: The number of nearest neighbors to consider (*standard: 3*)
 - `distance_function`: The distance function used to compute the distances between records. It needs to take two 1-d arrays as arguments and return a scalar value indicating the distance between the arrays. The standard function is the euclidean distance function implemented in scipy.spatial.distance. 

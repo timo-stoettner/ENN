@@ -12,7 +12,7 @@ pip install enn
 To use the classifier, simply import the ENN class by typing
 
 ```python
-from enn import ENN
+from enn.enn import ENN
 ```
 
 The classifier can be used just like classifiers implemented in the scikit-learn package and therefore contains a fit and a predict method, among others. To obtain the predictions of the classifier, simply type
